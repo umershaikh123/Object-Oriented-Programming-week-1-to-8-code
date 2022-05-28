@@ -6,22 +6,40 @@ class fib3
 {
 
 private:
-    // map<>
+  static map<int, int> values; 
 
 public:
     fib3() {}
     ~fib3() {}
 
-    int fibbonacchi(int n)
-    {
-    }
+int fib3(int n)
+{
+
+  
+  if (n == 0 || n == 1)
+  {
+    return n;
+  }
+
+  map<int, int>::iterator iter = values.find(n);
+
+  if (iter == values.end())
+  {
+    return values[n] = fib3(n - 1) + fib3(n - 2);
+  }
+
+  else
+  {
+    return iter->second;
+  }
+}
 };
 
 int main()
 {
 
-    fib3 f{};
-    // int result = f.fibbonacchi(4);
-    // cout << result;
+    fib3 f;
+    int result = f.fib3(4);
+    cout << result;
     return 0;
 }
