@@ -32,8 +32,6 @@ Inheritance and composition:
 Q1 : How to access base class constructor from child class constructor
 Q2 : how to show parent attributes inside child class
 Q3 and Q4 : Conversion between derived type to base type object using dynamic polymorphism
-
-
 Q5 (imp) : Difference between Association , Aggregation and Composittion
 
 Week 8 :
