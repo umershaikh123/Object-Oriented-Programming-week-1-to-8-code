@@ -38,7 +38,7 @@ Q3 and Q4 : Conversion between derived type to base type object using dynamic po
 Q5 (imp) : Difference between Association , Aggregation and Composittion<br />
 
 Week 8 : <br />
-Contains all the questions code from mid term handout.
+Contains all the questions code from mid term (last) handout.
 
 
 
