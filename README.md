@@ -25,7 +25,11 @@ Q7 Scenario : A student enrolls in 6 bscs courses<br />
 Q8 : code from quiz <br />
 
 Week5: <br />
-Fibbonachi code Optimization in function form ( Fib1 to Fib 4)
+Fibbonachi code Optimization in function form ( Fib1 to Fib 4) <br />
+Fib1 : missing a base case  <br />
+Fib2 : normal recursive Fibonacchi code <br /> 
+Fib3 : memorization , use hashmap to calculate a big fibonachi sequence <br />
+Fib4 : iterative approach : use a for loop to calculate fibonachi sequence <br />
 
 Week 7: <br />
 Fibbonachi code in the Class/object form
@@ -38,7 +42,12 @@ Q3 and Q4 : Conversion between derived type to base type object using dynamic po
 Q5 (imp) : Difference between Association , Aggregation and Composittion<br />
 
 Week 8 : <br />
-Contains all the questions code from mid term (last) handout.
+Pointers : Program to swap 2 numbers using pointers with some pointer logic <br />
+Q2-) Understand how pointers work <br />
+Q3 and Q3b ) Thing class : See how the objects are created and destroyed when they go out of scope <br />
+Q4a and Q4b) Lamp class : learn how to use 2 states of lamp ON/OFF using enum . <br />
+Q8) See the order of constructor and destructor in a for loop <br />
+
 
 
 
